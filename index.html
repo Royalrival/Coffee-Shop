@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>THE LAST SIP</h1>
+        <span style="font-size: 1.5rem; color: #fff;">Savor the Aroma of Nostalgia and Taste.</span>
+    </header>
+    <nav>
+        <ul class="tab-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <img id="about-image" src="https://i.pinimg.com/236x/2f/4d/c3/2f4dc308406b7bf01a9d87721925c077--world-maps-coffeehouse.jpg">
+            <div class="about-content-container">
+                <p class="about-content">
+                    Step into the world of vintage aesthetics at our coffee shop, established since 70+ years. 
+                    Our walls are adorned with unique, retro decor that transports you to another era. 
+                    With cosy seating and a relaxed atmosphere, you'll be able to unwind and enjoy a cup of coffee in style.
+                </p>
+                <p class="about-content">
+                    We pride ourselves on offering a great variety of options. 
+                    Our coffee menu features classic blends, as well as unique combinations that will tantalise your taste buds.
+                    We also have a selection of teas, smoothies, and pastries to complement your coffee. 
+                    At our coffee shop, we aim to provide the perfect environment for visitors to enjoy a delicious drink, chat with friends, or work in a peaceful setting.
+                </p>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="https://assets.afcdn.com/story/20131230/152936_w767h767c1cx347cy199.jpg" alt="Coffee 1">
+                <div class="menu-item-details">
+                    <h3 class="menu-item-title">Classic Brew - $5.00</h3>
+                    <p class="menu-item-description">Our signature blend of rich flavors and aromatic delight.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://copykat.com/wp-content/uploads/2021/11/Starbucks-Cafe-Mocha-Pin-2.jpg" alt="Coffee 2">
+                <div class="menu-item-details">
+                    <h3 class="menu-item-title">Mocha Delight - $7.50</h3>
+                    <p class="menu-item-description">A delightful blend of chocolate and coffee, topped with whipped cream.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.julieseatsandtreats.com/wp-content/uploads/2021/06/Caramel-Latte-4-of-6-1022x1536.jpg" alt="Coffee 2">
+                <div class="menu-item-details">
+                    <h3 class="menu-item-title">Caramel Latte - $10.00<span style="font-size:1.3rem; color:red";>[BESTSELLER]</span></h3>
+                    <p class="menu-item-description">Indulge in the perfect balance of espresso, caramel, and milk</p>
+                </div>
+            </div>
+            <h2>Price Calculator for Caramel Latte</h2>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1">
+            <button id="calculateButton">Calculate Total</button>
+            <p id="totalCost">Total cost: $0</p>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+                <div class="testimonial-container"> 
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "I absolutely love the coffee at this shop! The cozy atmosphere and friendly staff make it my go-to place to unwind."
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "The quality of their coffee is unmatched. The unique blends and flavors are a treat for my taste buds."
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "My mornings have never been better since discovering this coffee. The aroma and taste are truly invigorating!"
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "As a coffee connoisseur, I have to say that this blend is top-notch. It's smooth and rich with a subtle hint of sweetness."
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "The quality of their coffee is unmatched. The unique blends and flavors are a treat for my taste buds."
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <img src="https://icon-library.com/images/head-icon/head-icon-8.jpg" alt="Testimonial Avatar">
+                    <p>
+                        "I never knew coffee could taste this good until I tried this brand. It's now a staple in my daily routine."
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" style="background-color: #333; color: #fff; padding: 1rem 1rem;">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">Contact Us</h2>
+            <div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+                <div style="flex-basis: calc(50% - 20px); padding: 1rem;">
+                    <h3 style="font-size: 1.75rem; margin-bottom: 1rem;">Reach Out to Us</h3>
+                    <p style="font-size: 1.2rem;">Have a question or feedback? Don't hesitate to get in touch with us. We're here to assist you!</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; font-size: 1.2rem;">
+                        <li style="margin-bottom: 0.5rem;"><strong>Email:</strong> thelastsip@cs.com</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Phone:</strong> (+91) 1566862654</li>
+                    </ul>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="text-decoration: none; color: #fff; margin-right: 1rem; font-size: 1.35em;"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" style="text-decoration: none; color: #fff; margin-right: 1rem; font-size: 1.35rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="text-decoration: none; color: #fff; margin-right: 1rem; font-size: 1.35rem;"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div style="flex-basis: calc(50% - 20px); padding: 5px;">
+                    <h3 style="font-size: 1.75rem; margin-bottom: 1rem;">Visit Us</h3>
+                    <p style="font-size: 1.2rem;">We'd love to have you visit our coffee shop.
+                        <address style="font-size: 1.2rem;">
+                            123 XYZ Street<br>
+                            Shopping Center, Bandra East<br>
+                            Mumbai-400089.
+                        </address>
+                    </p>     
+                </div>    
+            </div>
+        </section>                       
+    </main>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
